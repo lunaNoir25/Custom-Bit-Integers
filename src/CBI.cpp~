@@ -1,8 +1,8 @@
 #include <iostream>
 #include <string>
 
-struct uint4_t {
-	unsigned int val: 4;
+struct uint2_t {
+	unsigned int val: 2;
 };
 
 std::string conv10_2(int num) {
@@ -19,7 +19,7 @@ std::string conv10_2(int num) {
 }
 
 int main(){
-	uint4_t num;
+	uint2_t num;
 
 	num.val = 0;
 	
