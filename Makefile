@@ -1,0 +1,6 @@
+SRC_DIR = ./src
+BLD_DIR = ./build
+
+build: $(SRC_DIR)/CBI.cpp
+	g++ $(SRC_DIR)/CBI.cpp -o $(BLD_DIR)/CBI
+	g++ $(SRC_DIR)/CBI.cpp -o $(BLD_DIR)/CBI.exe
