@@ -2,3 +2,4 @@ build
 src/*.un~
 *.un~
 .gitignore~
+Makefile~
